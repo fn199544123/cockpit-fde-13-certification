@@ -1,0 +1,27 @@
+{
+  "project": 13,
+  "ok": true,
+  "checks": [
+    "直接API非法业务数据拒绝，数据库无变更",
+    "跨站普通表单写入与数据库/源码下载拒绝",
+    "create commission; filter exact ID",
+    "full receipt/testing/report/certificate timeline",
+    "missing decision rejected; pass rate 100% for filtered new order",
+    "reload persistence; duplicate and invalid IDs rejected",
+    "overdue filter and stage dwell display",
+    "failed testing prevents certificate issue",
+    "CSV download",
+    "reset requires confirmation",
+    "真实浏览器操作经HTTP写入SQLite，审计记录与版本一致",
+    "新浏览器无本地存档，读取同一服务端数据",
+    "过期版本返回409；重开数据库后数据和版本保留",
+    "手机宽度无整页横向溢出",
+    "前端版本冲突明确提示并停止继续提交",
+    "断网保存失败有明确提示，数据库不变且不显示保存成功"
+  ],
+  "sha256": {
+    "index.html": "6b8466294afd09b7c08bf1daf33bdc88b7795ee83f94c1f4e0507de95e82f4c6",
+    "backend.py": "88ba4aac58fbb83e34c46978ca51a35fe24316cc95c4d4766fd27b024f511d15",
+    "seed.json": "b740d4f67f36c76460d5a085fd3d9e489c541452f1b874605c41803e4fe80804"
+  }
+}
